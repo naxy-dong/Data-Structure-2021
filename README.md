@@ -1,2 +1,2 @@
 # Data-Structure-HW1
-This is the homework 1 for my data structure class.
+This is homework 1 of my data structure class.
