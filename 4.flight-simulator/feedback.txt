@@ -1,7 +1,0 @@
--5: Compilation errors due to exceptions in different classes
-
-Data (seed, passenger arrival prob, deque prob, new flight prob, seconds):
-
-5356354846, 0.7, 0.7, 0.5, 50
-
--2: flights are ready for departure even before borading completes. SImulation stopped at 33 minutes.
