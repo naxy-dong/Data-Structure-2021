@@ -1,0 +1,1 @@
+-1: neg seat numbers accepted, -2: next person doesn't always give the smallest number
