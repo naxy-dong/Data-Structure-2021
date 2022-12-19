@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * This class will allow the stadium staff to queue new attendees and adjust the number of lines available
  * Brief: This program should greets the users and say good bye to the user when exiting the program
@@ -24,7 +23,7 @@ public class SecurityManager {
             securityCheck.printStatus();
             printMenu();
             System.out.print("Please select an option: ");
-            menuInput = sc.nextLine();
+            menuInput = sc.nextLine().toUpperCase();
 
             switch(menuInput){
                 case "A":
@@ -36,6 +35,8 @@ public class SecurityManager {
                     System.out.print("Please enter the seat number: ");
                     try{
                         seatNum = Integer.parseInt(sc.nextLine());
+                        if(seatNum < 0)
+                            throw new IllegalArgumentException();
                         securityCheck.addPerson(name, seatNum);
                         System.out.println(name + " has been added!");
                     }
@@ -44,6 +45,9 @@ public class SecurityManager {
                     }
                     catch(NumberFormatException e){
                         System.out.println("You have to enter a valid seat number");
+                    }
+                    catch(IllegalArgumentException e){
+                        System.out.println("Negative number is not allowed for seat number");
                     }
                     break;
                 case "N":

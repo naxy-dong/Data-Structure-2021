@@ -1,1 +1,2 @@
--1: neg seat numbers accepted, -2: next person doesn't always give the smallest number
+-1: neg seat numbers accepted       --Check
+-2: next person doesn't always give the smallest number     --example is not specified. Don't know what happened.

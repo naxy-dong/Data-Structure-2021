@@ -1,4 +1,3 @@
-
 /**
  * Brief:  that contains ticket information of each person and references the next person in line.
  *  The Person class should contain variables for the person’s name, seat number, and next person in line

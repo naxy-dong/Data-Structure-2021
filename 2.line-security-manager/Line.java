@@ -1,5 +1,3 @@
-import src.Person;
-
 /**
  * Brief: The line class contains people waiting in line in ascending seat
     order. The Line class should contain a Person reference to the start of your line and its length.

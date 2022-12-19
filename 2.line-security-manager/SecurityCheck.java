@@ -1,5 +1,3 @@
-import src.Person;
-
 /**
  * Brief: the security check class contains a linkedlist that represent all the different lines. 
  * It is capapble of increasing and decreasing the number of lines available while maintaining 
