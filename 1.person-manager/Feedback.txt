@@ -1,6 +1,6 @@
-1. CSV files where any of the columns has holes (i.e. empty values for some columns)
-2. Totally empty CSV file.
-3. CSV file with only the header row.
-4. CSV file with more columns than expected.
-5. CSV file with less columns than expected.
-6. CSV file with wrong columns.
+1. CSV files where any of the columns has holes (i.e. empty values for some columns)  --check
+2. Totally empty CSV file.                      --check
+3. CSV file with only the header row.           --check
+4. CSV file with more columns than expected.    --check
+5. CSV file with less columns than expected.    --check
+6. CSV file with wrong columns.                 --check

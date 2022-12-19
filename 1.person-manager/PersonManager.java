@@ -1,7 +1,4 @@
 import java.util.Scanner;
-
-import src.Person;
-
 /**
  * The PersonManager class allows the user to interact with the database by 
  * listing the people, adding to the list, removing, and retrieving people from the list
@@ -18,7 +15,7 @@ public class PersonManager{
         do{
             printMenu();
             System.out.print("Please select an option: ");
-            menuInput = sc.nextLine();
+            menuInput = sc.nextLine().toUpperCase();
             
             switch(menuInput){
                 case "I"://Any csv file should work
